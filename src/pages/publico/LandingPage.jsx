@@ -13,7 +13,7 @@ const ACCESOS = [
     texto: 'Con la patente y el código de seguimiento de tu comprobante.',
     primario: true,
   },
-  { to: PATHS.accesoCliente, icon: 'clientes', titulo: 'Soy cliente', texto: 'Entra con tu correo y ve todos tus vehículos.' },
+  { to: PATHS.accesoCliente, icon: 'clientes', titulo: 'Cliente', texto: 'Entra con tu correo y ve todos tus vehículos.' },
   { to: PATHS.login, icon: 'trabajos', titulo: 'Personal del taller', texto: 'Administración, recepción y mecánicos.' },
 ]
 
