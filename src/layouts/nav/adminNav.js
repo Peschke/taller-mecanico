@@ -1,0 +1,18 @@
+export const adminNav = [
+  { label: 'Panel', to: '/admin', icon: 'panel', end: true },
+  { label: 'Órdenes', to: '/admin/ordenes', icon: 'ordenes', end: true },
+  { label: 'Presupuestos', to: '/admin/presupuestos', icon: 'presupuesto', badgeKey: 'presupuestos' },
+  { label: 'Caja', to: '/admin/caja', icon: 'caja' },
+  { label: 'Inventario', to: '/admin/inventario', icon: 'inventario' },
+  { label: 'Compras', to: '/admin/compras', icon: 'compras', badgeKey: 'compras' },
+  { label: 'Reportes', to: '/admin/reportes', icon: 'reportes' },
+  { section: 'Recepción' },
+  { label: 'Registrar ingreso', to: '/admin/registro', icon: 'registro' },
+  { label: 'Clientes', to: '/admin/clientes', icon: 'clientes' },
+  { label: 'Vehículos', to: '/admin/vehiculos', icon: 'auto' },
+  { label: 'Por notificar', to: '/admin/por-notificar', icon: 'notificar', badgeKey: 'porNotificar' },
+  { section: 'Administración' },
+  { label: 'Usuarios', to: '/admin/usuarios', icon: 'usuarios' },
+  { label: 'Catálogos', to: '/admin/catalogos', icon: 'catalogos' },
+  { label: 'Auditoría', to: '/admin/auditoria', icon: 'auditoria' },
+]

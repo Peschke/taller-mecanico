@@ -1,0 +1,5 @@
+/* Administración y recepción: escritorio, densidad media */
+.theme-admin .shell__main,
+.theme-recepcion .shell__main {
+  max-width: 1480px;
+}
